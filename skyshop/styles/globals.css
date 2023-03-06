@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-tabs-ink-bar {
+    border-bottom: 2px solid #FF5230;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #FF5230 !important; 
+ }
+
+ .ant-tabs-tab-btn:hover{
+    color: #FF5230 !important; 
+}
