@@ -1,4 +1,5 @@
 import Appbar from "@/comps/appbar";
+import RedButton from "@/comps/red_button";
 import {
   CodeSandboxOutlined,
   MenuOutlined,
@@ -30,24 +31,13 @@ const Dashboard = () => {
               We build only the best, customized to your exacting demands
             </div>
             <div className="font-bold text-8xl">SKY & SKI</div>
-
-            <button className="bg-red-500 px-4 py-2 mt-8 rounded-none">
-              Shop Now
-            </button>
+<RedButton title="SHOP NOW" />
+           
           </div>
         </div>
       </div>
      <InfoSection />
-     <div className="w-1/3  pl-40">
-     <Divider className="text-red-500" orientation="right"> <div className="text-red-400">Catalog</div></Divider>
-     </div>
-     <div className="text-4xl px-40  flex justify-between font-semi-bold text-black">
-      <div className="w-1/2">
-      Our Most Popular Board Category
-      </div>
-      <Catalog />
-    
-     </div>
+    <Catalog />
     
     </>
   );
