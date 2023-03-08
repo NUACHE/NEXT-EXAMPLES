@@ -22,11 +22,7 @@ const CatalogTabs = () => {
             label: `Boards`,
             children: ``,
           },
-          {
-            key: '5',
-            label: `sd`,
-            children: ``,
-          },
+          
          
       ];
 
