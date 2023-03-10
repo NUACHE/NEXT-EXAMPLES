@@ -11,6 +11,7 @@ import { Button, Divider, Layout, Space } from "antd";
 import Image from "next/image";
 import Link from "next/link";
 import Catalog from "./catalog";
+import Gallery from "./gallery";
 import InfoSection from "./info_section";
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -31,14 +32,13 @@ const Dashboard = () => {
               We build only the best, customized to your exacting demands
             </div>
             <div className="font-bold text-8xl">SKY & SKI</div>
-<RedButton title="SHOP NOW" />
-           
+            <RedButton title="SHOP NOW" />
           </div>
         </div>
       </div>
-     <InfoSection />
-    <Catalog />
-    
+      <InfoSection />
+      <Catalog />
+      <Gallery />
     </>
   );
 };
