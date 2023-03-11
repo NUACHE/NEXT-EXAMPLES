@@ -1,19 +1,12 @@
 import Appbar from "@/comps/appbar";
 import RedButton from "@/comps/red_button";
-import {
-  CodeSandboxOutlined,
-  MenuOutlined,
-  SearchOutlined,
-  TeamOutlined,
-  UserOutlined,
-} from "@ant-design/icons";
 import { Button, Divider, Layout, Space } from "antd";
 import Image from "next/image";
-import Link from "next/link";
 import Catalog from "./catalog";
+import Explore from "./explore";
 import Gallery from "./gallery";
 import InfoSection from "./info_section";
-const { Header, Footer, Sider, Content } = Layout;
+import Logos from "./logos";
 
 const Dashboard = () => {
   return (
@@ -39,6 +32,9 @@ const Dashboard = () => {
       <InfoSection />
       <Catalog />
       <Gallery />
+      <div className="h-28"></div>
+      <Explore />
+      <Logos />
     </>
   );
 };
